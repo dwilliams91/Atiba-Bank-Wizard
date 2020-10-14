@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        login pages
+    </title>
+    <link href="/styles/main.css" rel="stylesheet" />
+
+</head>
+
+<body class=loginbody>
+    <div class=center id="previous">
+        <h1> Previous Bank Login</h1>
+        <label for="cars">Bank Name</label>
+
+        <select name="banks" id="cars">
+            <option value="volvo">Bank of America</option>
+            <option value="saab">Regions</option>
+            <option value="mercedes">Wells Fargo</option>
+            <option value="audi">JPMorgan Chase</option>
+        </select>
+
+        <form action="/index.html" method="POST">
+
+            <span> username
+                <input name="username">
+            </span>
+            <br>
+            <span>password
+                <input type="password" name="password">
+            </span>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
